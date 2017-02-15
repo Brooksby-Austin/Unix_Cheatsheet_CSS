@@ -1,0 +1,46 @@
+body{
+    background-image: url("http://www.zingerbug.com/Backgrounds/background_images/green_plaid.jpg");
+    background-color: black;
+    font-family: monospace;
+    color: white;
+}
+a{
+    font-size: 16px;
+    color: white;
+    display: block;
+    text-align: center;
+}
+table{
+    width: 100%;
+}
+table, td, tr{
+    border: solid green;
+    border-width: 1px;
+}
+td{
+    text-align: center;
+}
+td:hover{
+    color:yellow;
+}
+span{
+    display: block;
+    margin: 10px 10px 0px 0px;
+}
+a:visited{
+    visibility: hidden;
+}
+img{
+    -webkit-filter: invert(1);
+    width:75%;
+    display: block;
+    margin: auto;
+}
+img:hover{
+   animation:pulse 1s infinite;
+}
+@keyframes pulse {
+    0%,100% {width:75%;}
+    50% {width:70%;}
+}
+
